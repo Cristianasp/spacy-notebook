@@ -22,6 +22,14 @@ This notebook is tested for version 2.1.3
 
 As per May, 4th 2019, installing Spacy via "conda install -c conda-forge spacy" delivers 2.0.8 version so I used "pip install -U spacy" to have version 2.1.3 in my computer
 
+To check the library version, use the commands below:
+
+<pre><code>import spacy
+print(spacy.__version__)
+</code></pre>
+
+
+
 ## How to download the models:
 
 https://github.com/explosion/spacy-models/releases/
