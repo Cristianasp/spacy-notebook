@@ -43,22 +43,15 @@ python -m spacy download en
 
 To download a model:
 
-<pre><code>
-
-python -m spacy download en_core_web_sm
-
+<pre><code>python -m spacy download en_core_web_sm
 python -m spacy download pt_core_news_sm
-
 python -m spacy download en_core_web_md
-
 python -m spacy download pt_core_news_md - there is no medium model for my language... :-(
 </code></pre>
 
 To link a model to refer to it more easily:
 
-<pre><code>
-python -m spacy link en_core_web_md en
-
+<pre><code>python -m spacy link en_core_web_md en
 python -m spacy link pt_core_news_sm pt
 </code></pre>
 
