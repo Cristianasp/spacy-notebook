@@ -16,7 +16,7 @@ https://spacy.io/usage
 
 To install spacy, please use:
 
-conda install -c conda-forge spacy
+<pre><code>conda install -c conda-forge spacy</code></pre>
 
 This notebook is tested for version 2.1.3
 
@@ -36,20 +36,31 @@ https://github.com/explosion/spacy-models/releases/
 
 To download a model:
 
+<pre><code>
 python -m spacy download pt
 python -m spacy download en
+</code></pre>
 
 To download a model:
 
+<pre><code>
+
 python -m spacy download en_core_web_sm
+
 python -m spacy download pt_core_news_sm
+
 python -m spacy download en_core_web_md
+
 python -m spacy download pt_core_news_md - there is no medium model for my language... :-(
+</code></pre>
 
 To link a model to refer to it more easily:
 
+<pre><code>
 python -m spacy link en_core_web_md en
+
 python -m spacy link pt_core_news_sm pt
+</code></pre>
 
 
 ## Using nbextensions
@@ -60,9 +71,9 @@ Instructions can be found here:
 
 https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
 
-conda install -c conda-forge jupyter_contrib_nbextensions
+<pre><code>conda install -c conda-forge jupyter_contrib_nbextensions</code></pre>
 
-jupyter nbextension enable toc2
+<pre><code>jupyter nbextension enable toc2</code></pre>
 
 ## Additional information
 
@@ -70,9 +81,12 @@ Unfortunatedly gitHub is having issues to render these notebooks.
 
 If you want to visualize them from the web, use nbviewer:
 
-https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_00.ipynb
-
 https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_01.ipynb
 
 https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_02.ipynb
+
+https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_03.ipynb
+
+https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_04.ipynb
+
 
