@@ -29,24 +29,20 @@ print(spacy.__version__)
 </code></pre>
 
 
-
 ## How to download the models:
 
 https://github.com/explosion/spacy-models/releases/
 
 To download a model:
 
-<pre><code>
-python -m spacy download pt
+<pre><code>python -m spacy download pt
 python -m spacy download en
 </code></pre>
 
-To download a model:
-
+or...
 <pre><code>python -m spacy download en_core_web_sm
 python -m spacy download pt_core_news_sm
 python -m spacy download en_core_web_md
-python -m spacy download pt_core_news_md - there is no medium model for my language... :-(
 </code></pre>
 
 To link a model to refer to it more easily:
@@ -65,14 +61,11 @@ Instructions can be found here:
 https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
 
 <pre><code>conda install -c conda-forge jupyter_contrib_nbextensions</code></pre>
-
 <pre><code>jupyter nbextension enable toc2</code></pre>
 
 ## Additional information
 
-Unfortunatedly gitHub is having issues to render these notebooks.
-
-If you want to visualize them from the web, use nbviewer:
+If you have issues rendering these notebooks, you can try nbviewer
 
 https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_01.ipynb
 
@@ -82,7 +75,7 @@ https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_03.ipy
 
 https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_04.ipynb
 
-## Want to use binder ?
+## Or you want to use binder ?
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Cristianasp/spacy/master)
 
