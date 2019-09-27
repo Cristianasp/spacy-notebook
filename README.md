@@ -82,4 +82,13 @@ https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_03.ipy
 
 https://nbviewer.jupyter.org/github/Cristianasp/spacy/blob/master/Chapter_04.ipynb
 
+## Want to use binder ?
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Cristianasp/spacy/master)
+
+
+## LICENSE
+
+The materials are licensed under CC BY-SA.
+
+See here for details: [https://github.com/ines/spacy-course/blob/master/LICENSE]
